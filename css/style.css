@@ -223,6 +223,17 @@ html, body {
   align-items: center;
   width: 30vw;
   padding-top: 0.7rem;
+  /* border-right: #d0d0d0 solid 1px; */
+}
+
+.chrt1 {
+  position: relative;
+  min-height: 180px;
+  width: 10px;
+  background: #dbdbdb;
+  margin: 0 14px;
+  border-radius: 100px 100px 0 0;
+  display: flex;
 }
 
 .invo {
