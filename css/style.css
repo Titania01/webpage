@@ -165,7 +165,7 @@ html, body {
 
  .mobile {
    background-color: #ffffff;
-   height: 20rem;
+   height: 18rem;
    width: 53vw;
    margin: 2rem 13.5rem;
    border-radius: 5px;
@@ -189,7 +189,7 @@ html, body {
 
 .date {
   font-size: 14px;
-  color: #4a4a4a;
+  color: #787878;
 }
 
 .doll {
@@ -205,4 +205,42 @@ html, body {
   font-size: 14px;
   border-bottom: #d0d0d0 1px solid;
   padding-bottom: 1.5rem;
+}
+
+.mobi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  padding-top: 0.7rem;
+  border-bottom: 1px #d0d0d0 solid;
+  padding-bottom: 0.7rem;
+}
+
+.bank {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  padding-top: 0.7rem;
+}
+
+.invo {
+  padding-right: 18rem;
+  color:#4a4a4a;
+  font-size: 14px;
+}
+
+.dolla {
+  font-weight: 600;
+  font-size: 14px;
+  color: #787878;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dola {
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(236, 92, 116);
+  font-family: "Montserrat", sans-serif;
 }
