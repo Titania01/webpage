@@ -18,8 +18,8 @@ html, body {
   border-right: 1px solid #ededed;
   min-height: 100vh;
   background: #f7f7f7;
-  /* position: fixed;
-  top: 0;
+  position: fixed;
+  /* top: 0;
   left: 0;
   z-index: 91;
   transform: translateX(0);
@@ -111,6 +111,10 @@ html, body {
   border-right: .1rem solid red;
  }
 
+ .right {
+   margin-left: 360px;
+ }
+
  .wrap {
   display: flex;
   /* width: 65rem; */
@@ -124,6 +128,7 @@ html, body {
    margin-left: 13.5rem;
    margin-top: 1rem;
    border-radius: 4px;
+   position: static;
  }
 
  .searchh {
@@ -396,7 +401,23 @@ html, body {
   border: #d0d0d0 1px solid;
   padding: 2rem 2rem;
   display: flex;
+  /* flex-direction: row; */
   /* justify-content: space-between; */
+}
+
+.wrap1 {
+  justify-content: space-between;
+  align-items: center;
+  width: 18rem;
+  display: flex;
+}
+
+.wrap2 {
+  margin-left: 23vw;
+  justify-content: space-between;
+  align-items: center;
+  width: 15rem;
+  display: flex;
 }
 
 .may {
@@ -406,10 +427,9 @@ html, body {
   /* margin-left: 1rem; */
 }
 
+.approve,
 .jaay {
-
- /* background-color: red; */
-
+  font-size: 14px;
 }
 
 .jane {
@@ -444,4 +464,85 @@ html, body {
   font-family: "Montserrat", sans-serif;   
   color: #4a4a4a;
   font-size: 16px; 
+}
+
+.alert {
+
+}
+
+.chart{
+  display: flex;
+  justify-content: space-between;
+  width: 18em;
+}
+
+.chrt1{
+  width: 0.85em;
+  height: 14em;
+  background-color: lightgray;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.summary{
+  padding-left: 2em;
+  border-left: 1px solid #d3c5c5;
+  margin-left: 1em;
+  color: #4a4a4a;
+  font-weight: 600;
+}
+
+.chrta{
+  width: 0.85em;
+  height: 8em;
+  background-color: rgb(238, 83, 83);
+  position: absolute;
+  bottom: 0;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+
+}
+.blue{
+  background-color: lightskyblue;
+}
+.mon {
+  height: 10em;
+}
+
+.day {
+  padding-top: 1rem;
+  font-size: 12px;
+  color: #967f7f;
+}
+
+.paul {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border:3px solid white;
+  margin-left: -0.85em;
+  border-radius: 50%;
+  background: #3bf486;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.kris {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border:3px solid white;
+  margin-left: -0.85em;
+  border-radius: 50%;
+  background: #7938f4;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
