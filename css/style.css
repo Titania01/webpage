@@ -396,6 +396,7 @@ html, body {
   border: #d0d0d0 1px solid;
   padding: 2rem 2rem;
   display: flex;
+  /* justify-content: space-between; */
 }
 
 .may {
@@ -416,7 +417,7 @@ html, body {
   height: 3rem;
   display: flex;
   align-items: center;
-  justify-content:center ;
+  justify-content:center;
   border:3px solid white;
   margin-left: -0.85em;
   border-radius: 50%;
@@ -425,4 +426,22 @@ html, body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   /* margin-left: 1rem; */
+}
+
+.amount {
+  font-size: 13px;
+  color: #d0d0d0;
+}
+
+.pricy {
+  content: '$';
+  top: -5px;
+  position: relative;
+  font-size: 70%;
+}
+
+.price {
+  font-family: "Montserrat", sans-serif;   
+  color: #4a4a4a;
+  font-size: 16px; 
 }
