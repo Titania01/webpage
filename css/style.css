@@ -167,7 +167,7 @@ html, body {
    background-color: #ffffff;
    height: 18rem;
    width: 53vw;
-   margin: 2rem 13.5rem;
+   margin: 2rem 0 0 13.5rem;
    border-radius: 5px;
    border: #d0d0d0 1px solid;
    padding: 2rem 2rem;
@@ -226,15 +226,7 @@ html, body {
   /* border-right: #d0d0d0 solid 1px; */
 }
 
-.chrt1 {
-  position: relative;
-  min-height: 180px;
-  width: 10px;
-  background: #dbdbdb;
-  margin: 0 14px;
-  border-radius: 100px 100px 0 0;
-  display: flex;
-}
+
 
 .invo {
   padding-right: 18rem;
@@ -254,4 +246,110 @@ html, body {
   font-size: 14px;
   color: rgb(236, 92, 116);
   font-family: "Montserrat", sans-serif;
+}
+
+.mary {
+  display: flex;
+}
+
+.smith {
+  background-color: #ffffff;
+   height: 7rem;
+   width: 35vw;
+   margin: 2rem 0 0 13.5rem;
+   border-radius: 5px;
+   border: #d0d0d0 1px solid;
+   padding: 0 2rem;
+   display: flex;
+   /* justify-content: space-between; */
+   align-items: center;
+}
+
+.income {
+  background-color: #ffffff;
+   height: 7rem;
+   width: 16.5vw;
+   margin: 2rem 0 0 2rem;
+   border-radius: 5px;
+   border: #d0d0d0 1px solid;
+   padding-left: 1rem; 
+   padding-right: 1rem;
+}
+
+.round {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: #f0ebeb  1px solid;
+}
+
+.round2 {
+  /* width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: #f0ebeb 1px solid;
+  padding-left: -2rem; */
+}
+
+.message {
+  padding-top: 0.85rem;
+  padding-left: 0.85rem;
+  color: #999999;
+}
+
+#image {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+.mass {
+  margin-left: 1.5rem;
+  border-right: #dfd4d4 1px solid;
+  width: 7vw;
+  height: 3rem;
+  padding-top: 0.5rem;
+}
+
+.ma {
+  font-weight: 600;
+  font-size: 12.5px;
+  color: #3b3636;
+  font-family: "Montserrat", sans-serif;
+}
+
+.lorem {
+  font-size: 12px;
+  color: #967f7f;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 1rem;
+}
+
+.se {
+  font-size: 12px;
+  color: #787878;
+  font-family: "Montserrat", sans-serif;
+}
+
+.incom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem; 
+}
+
+.incoming {
+  font-weight: 400;
+  font-size: 15px;
+  color: #787878;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  border: none;
+  background: #d8e9fe;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  color: #5ba4fc;
+  padding: 3px 12px;
 }
