@@ -353,3 +353,76 @@ html, body {
   color: #5ba4fc;
   padding: 3px 12px;
 }
+
+.doller {
+  font-family: "Montserrat", sans-serif;   
+  color: #4a4a4a;
+  font-size: 23px; 
+  padding-top: 2rem;
+}
+
+.dolly {
+  content: '$';
+  top: -5px;
+  position: relative;
+  font-size: 70%;
+}
+
+.activity {
+  margin-left: 12vw;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 53vw;
+  color: #787878;
+}
+
+.active {
+  /* margin-right: 3rem; */
+}
+
+.activ {
+  padding-right: 45vw;
+  font-size: 14px;
+}
+
+.janet {
+  background-color: #ffffff;
+  height: 8rem;
+  width: 53vw;
+  margin: 2rem 0 0 13.5rem;
+  border-radius: 5px;
+  border: #d0d0d0 1px solid;
+  padding: 2rem 2rem;
+  display: flex;
+}
+
+.may {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  /* margin-left: 1rem; */
+}
+
+.jaay {
+
+ /* background-color: red; */
+
+}
+
+.jane {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  border:3px solid white;
+  margin-left: -0.85em;
+  border-radius: 50%;
+  background: #ff9b17;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  /* margin-left: 1rem; */
+}
