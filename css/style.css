@@ -340,8 +340,8 @@ html, body {
     border-radius: 50%;
   }
   100% {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     opacity: 0.5;
     background-color: #8dc0fd;
     border-radius: 50%;
@@ -437,10 +437,6 @@ html, body {
   color: #787878;
 }
 
-.active {
-  /* margin-right: 3rem; */
-}
-
 .activ {
   padding-right: 45vw;
   font-size: 14px;
@@ -455,8 +451,6 @@ html, body {
   border: #d0d0d0 1px solid;
   padding: 2rem 2rem;
   display: flex;
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
 }
 
 .wrap1 {
@@ -467,10 +461,10 @@ html, body {
 }
 
 .wrap2 {
-  margin-left: 23vw;
+  margin-left: 26vw;
   justify-content: space-between;
   align-items: center;
-  width: 15rem;
+  width: 10rem;
   display: flex;
 }
 
@@ -478,7 +472,6 @@ html, body {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  /* margin-left: 1rem; */
 }
 
 .approve,
@@ -493,13 +486,12 @@ html, body {
   align-items: center;
   justify-content:center;
   border:3px solid white;
-  margin-left: -0.85em;
+  margin-left: -1.2em;
   border-radius: 50%;
   background: #ff9b17;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  /* margin-left: 1rem; */
 }
 
 .amount {
@@ -518,10 +510,6 @@ html, body {
   font-family: "Montserrat", sans-serif;   
   color: #4a4a4a;
   font-size: 16px; 
-}
-
-.alert {
-
 }
 
 .chart{
@@ -573,6 +561,7 @@ html, body {
 .blue{
   background-color: lightskyblue;
 }
+
 .mon {
   height: 10em;
 }
@@ -605,10 +594,80 @@ html, body {
   align-items: center;
   justify-content:center;
   border:3px solid white;
-  margin-left: -0.85em;
+  margin-left: -2em;
   border-radius: 50%;
   background: #7938f4;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+}
+
+.adam {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border:3px solid white;
+  margin-left: -0.5em;
+  border-radius: 50%;
+  /* background: #7938f4; */
+  color: #ffffff;
+  width: 3rem;
+  height: 3rem;
+}
+
+.paule {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+.sheryl {
+  width: 3rem;
+  height: 3rem;
+  font-weight: 500;
+  margin-left: -0.4rem;
+  background-color: #e73c7e;
+  color: #ffffff;
+  border: 3px solid white;
+  border-radius: 50%;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.christi,
+.sally,
+.tommy {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-left: -0.5rem;
+  border:3px solid white; 
+}
+
+.plus2 {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-left: -0.75em;
+  border-radius: 50%;
+  background: rgb(221, 216, 216);
+  color: #4a4a4a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.janet {
+  margin-bottom: 2rem;
+}
+
+.wrap2 > div > svg {
+  color: #5ba4fc;
+}
+
+.wrap2 > div > svg:hover {
+  
 }
