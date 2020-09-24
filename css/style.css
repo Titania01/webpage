@@ -80,10 +80,8 @@ html, body {
    color: #787878;
    width: 17.6rem;
    height: 2.5rem;
-
-   /* -webkit-box-align: center; */
-   /* padding: 0 16px 0 60px; */
  }
+
  .dashboard:hover{
    cursor: pointer;
    color: #4a4a4a;
@@ -116,8 +114,10 @@ html, body {
  }
 
  .wrap {
-  display: flex;
-  /* width: 65rem; */
+  display: flex; 
+  position: sticky;
+  top: 0;
+  left: 0;
  }
 
  .search {
@@ -128,7 +128,7 @@ html, body {
    margin-left: 13.5rem;
    margin-top: 1rem;
    border-radius: 4px;
-   position: static;
+  
  }
 
  .searchh {
@@ -138,6 +138,7 @@ html, body {
    color: #d0d0d0;
    padding-top: 0.75rem;
    padding-left: 1rem;
+  
  }
 
  .logo {
@@ -165,7 +166,10 @@ html, body {
    border-radius: 50%;
    background-color: #5ba4fc;
    margin-left: -2.5em;
-   margin-top: -2em;
+   margin-top: -2em;display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 4;
  }
 
  .mobile {
@@ -286,20 +290,70 @@ html, body {
   height: 3rem;
   border-radius: 50%;
   border: #f0ebeb  1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .round2 {
-  /* width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   border: #f0ebeb 1px solid;
-  padding-left: -2rem; */
+  padding-left: -2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.round::after{  
+  position: absolute;
+  content: '';
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5ba4fc;
+  -webkit-animation: wave 1.6s infinite;
+  animation: wave 1.6s infinite;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  transform-origin: center center;
+  z-index: 0;
 }
 
+@keyframes wave {
+  0% {
+    width: 1rem;
+    height: 1rem;
+    opacity: 0.9;
+    background-color: #8dc0fd;
+    border-radius: 50%;
+  }
+  50% {
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.7;
+    background-color: #8dc0fd;
+    border-radius: 50%;
+  }
+  100% {
+    width: 5rem;
+    height: 5rem;
+    opacity: 0.5;
+    background-color: #8dc0fd;
+    border-radius: 50%;
+  }
+} 
+
 .message {
-  padding-top: 0.85rem;
-  padding-left: 0.85rem;
   color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
 }
 
 #image {
@@ -484,6 +538,17 @@ html, body {
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
+@keyframes chat{
+  0%{
+    height: 1em;
+  }
+  50%{
+    height: 7em;
+  }
+  100%{
+    height: 14em;
+  }
+}
 
 .summary{
   padding-left: 2em;
@@ -495,6 +560,7 @@ html, body {
 
 .chrta{
   width: 0.85em;
+  animation: chat 3s ease-in-out;
   height: 8em;
   background-color: rgb(238, 83, 83);
   position: absolute;
